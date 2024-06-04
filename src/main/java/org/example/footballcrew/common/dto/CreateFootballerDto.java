@@ -1,4 +1,8 @@
 package org.example.footballcrew.common.dto;
 
-public record CreateFootballerDto() {
+import java.time.LocalDate;
+
+public record CreateFootballerDto(
+        LocalDate bornDate
+) {
 }

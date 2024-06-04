@@ -1,7 +1,7 @@
 package org.example.footballcrew.app;
 
 import lombok.AllArgsConstructor;
-import org.example.footballcrew.domain.footballer.Minute;
+import org.example.footballcrew.domain.minute.Minute;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -10,9 +10,4 @@ import java.util.UUID;
 @AllArgsConstructor
 public class FootballerApplicationService {
     private final TeamDatabase teamDatabase;
-
-  void handle(UUID id) {
-    var team = teamDatabase.getTeamById(id);
-    team.matchHeld(new Minute());
-  }
 }
