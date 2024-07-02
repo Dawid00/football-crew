@@ -13,7 +13,7 @@ import java.util.UUID;
 
 @Repository
 @AllArgsConstructor
-public class ExclusionSqlRepository {//} implements ExclusionDatabase {
+public class ExclusionSqlRepository {
 
   private final JdbcTemplate jdbcTemplate;
 

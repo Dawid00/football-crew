@@ -7,7 +7,7 @@ import org.example.footballcrew.domain.season.league.specifications.YouthFootbal
 import java.util.List;
 
 public class LeagueFactory {
-  //TODO DP konfiguracja kar
+  //TODO DP configurable penalties
   public static LeagueAggregate of(List<LeagueFootballer> footballers, List<LeagueMatch> games) {
     var leagueFootballers = footballers.stream().map(
             f -> new LeagueFootballer(f.getId(), f.getBornDate())
