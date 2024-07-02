@@ -1,4 +1,6 @@
 # Work in progress!
+## Tech stack
+### Java, Spring Boot, Spring Data JPA, Spring Data Jdbc, H2Database
 ## About project
 This repo is to show my approach to coding, trying to DDD, Clean Code, Clean Archtecture.
 I am junior software developer and a lot of work ahead of me.
@@ -63,3 +65,10 @@ subsPolicy: maximum 7 substitutes on the pitch
 ### Value Object - Card (YELLOW/RED, quantity)
 ### Entity - Exclusion
 It may be caused by injury, cards, absence, or without any specific reason.
+
+
+# TODO:
+* persistence
+* api
+* packages/modules
+* events handling/producing
