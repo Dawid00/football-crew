@@ -2,7 +2,7 @@
 ## Tech stack
 ### Java, Spring Boot, Spring Data JPA, Spring Data Jdbc, H2Database
 ## About project
-This repo is to show my approach to coding, trying to DDD, Clean Code, Clean Archtecture.
+This repo is to show my approach to coding, trying to Clean Code, Clean Archtecture.
 I am junior software developer and a lot of work ahead of me.
 I used to play football in amateur league, so I will show you some local rules regarding every league match.
 As a coach I need to be sure who can play in next league match.
@@ -34,11 +34,11 @@ What is more a footballer might be injured and not be able to play.
 * cards updated
 * team for next match created
 
-### Current team - AGGREGATE
+### Current team 
 **Behaviors:**
 Update footballers exclusions after the match by assigning minute.
 
-### Team for specific match - AGGREGATE
+### Team for specific match 
 Team for specific match is responsible for ensuring proper choice of footballers for further match.
 It is important to submit team before next match.
 It protects from walk-over due to excluded participant.
